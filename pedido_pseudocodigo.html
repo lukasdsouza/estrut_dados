@@ -1,0 +1,18 @@
+algoritmo mergeListasOrdenadas(lista a, tamanho m, lista b, tamanho n)
+  crie uma lista v vazia
+  crie dois ponteiros i e j, inicialmente apontando para o primeiro elemento de a e b, respectivamente
+  enquanto i for menor ou igual a m e j for menor ou igual a n faça:
+     se o elemento em a[i] for menor que o elemento em b[j] então:
+        adicione o elemento em a[i] à lista v
+        incremente i
+     senão:
+        adicione o elemento em b[j] à lista v
+        incremente j
+  enquanto i for menor que m faça:
+     adicione o elemento em a[i] à lista v
+     incremente i
+  enquanto j for menor que n faça:
+     adicione o elemento em b[j] à lista v
+     incremente j
+  retorne a lista v ordenada
+fim algoritmo

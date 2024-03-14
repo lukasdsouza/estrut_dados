@@ -1,0 +1,11 @@
+função acharPar(vetor, alvo):
+    crie um mapa vazio
+
+    para cada número em vetor:
+        complemento = alvo - número
+        se complemento estiver no mapa:
+            retorne (número, complemento)
+        senão:
+            adicione número no mapa
+
+    retorne (-1, -1)
